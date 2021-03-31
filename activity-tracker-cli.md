@@ -41,6 +41,7 @@ You're notified on the command line when updates to the {{site.data.keyword.clou
 
 
 
+
 ## ibmcloud auditing service-instances
 {: #activity-tracker-service-instances}
 

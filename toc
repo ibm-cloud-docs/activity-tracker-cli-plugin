@@ -7,4 +7,3 @@ IBM Cloud Activity Tracker CLI
     {: .navgroup id="reference"}
     activity-tracker-cli.md
     {: .navgroup-end}
-    
