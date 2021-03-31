@@ -1,2 +1,2 @@
-# logdnaat-cli-plugin
-Documentation repository for logdnaat-cli-plugin
+# activity-tracker-cli-plugin
+Documentation repository for activity-tracker-cli-plugin
