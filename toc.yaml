@@ -1,0 +1,17 @@
+toc:
+  properties:
+    subcollection: activity-tracker-cli-plugin
+    version: 2
+    category: logging_monitoring
+    audience: service
+    href: /docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-activity-tracker-cli
+    console-page: /observe/activitytracker
+    product-page: https://www.ibm.com/cloud/activity-tracker
+    path: activity-tracker-cli-plugin
+    label: IBM Cloud Activity Tracker CLI
+
+  entries: 
+  - navgroup: 
+      id: reference
+      topics: 
+      - activity-tracker-cli.md
