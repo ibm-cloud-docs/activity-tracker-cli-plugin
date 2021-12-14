@@ -21,6 +21,9 @@ The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capa
 This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-service_plan).
 {: important}
 
+Exporting using the UI uses the [V1 export API](https://cloud.ibm.com/apidocs/activity-tracker#export){: external} and is limited to the functionality provided by that version of the API.
+{: important}
+
 ## Prerequisites
 {: #activity-tracker-cli-prereq}
 
