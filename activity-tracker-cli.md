@@ -2,23 +2,23 @@
  
 copyright:
   years:  2021, 2022
-lastupdated: "2021-03-28"
+lastupdated: "2022-05-02"
 
 subcollection: activity-tracker-plugin-cli
 
-keywords: IBM Cloud Logging CLI, IBM Cloud Logging command line, IBM Cloud Logging terminal, IBM Cloud Logging shell
+keywords: IBM Cloud Activity Tracker CLI, IBM Cloud Activity Tracker command line, IBM Cloud Activity Tracker terminal, IBM Cloud Activity Tracker shell
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Activity Tracker event viewing CLI
+# Activity Tracker hosted event search CLI
 {: #activity-tracker-cli}
 
 The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the CLI to list and export information for {{site.data.keyword.at_full_notm}} service instances for an account.
 {: shortdesc} 
 
-This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-service_plan).
+This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started-search).
 {: important}
 
 Exporting using the UI uses the [V1 export API](https://cloud.ibm.com/apidocs/activity-tracker#export){: external} and is limited to the functionality provided by that version of the API.
@@ -129,8 +129,6 @@ List all instances in the `us-south` region and returns the output in JSON forma
 ibmcloud logging service-instances --region us-south --output json
 ```
 {: pre}
-
-<!-- ===================================== -->
 
 ## ibmcloud logging export
 {: #activity-tracker-export}
