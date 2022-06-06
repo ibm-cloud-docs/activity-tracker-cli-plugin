@@ -21,7 +21,7 @@ The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capa
 This information applies only if you use an {{site.data.keyword.at_full}} [Event Routing offering](/docs/activity-tracker?topic=activity-tracker-getting-started-routing).
 {: important}
 
-The V1 CLI is deprecated. See [Activity Tracker Event Routing V2 CLI](/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-atracker-v2-cli) for information on using the V2 CLI.  Also see [migrating resources](/docs/activity-tracker?topic=activity-tracker-migrate-resources) for information on migrating from your V1 configuration.
+The V1 CLI is deprecated. See [Activity Tracker Event Routing V2 CLI](/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-atracker-v2-cli) for information on using the V2 CLI.  Also see [migrating resources](/docs/activity-tracker?topic=activity-tracker-migration) for information on migrating from your V1 configuration.
 {: deprecated}
 
 ## Prerequisites
