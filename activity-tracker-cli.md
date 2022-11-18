@@ -2,11 +2,11 @@
  
 copyright:
   years:  2021, 2022
-lastupdated: "2022-05-02"
+lastupdated: "2022-08-15"
 
 subcollection: activity-tracker-plugin-cli
 
-keywords: IBM Cloud Activity Tracker CLI, IBM Cloud Activity Tracker command line, IBM Cloud Activity Tracker terminal, IBM Cloud Activity Tracker shell
+keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity Tracker hosted event search command line, IBM Cloud Activity Tracker hosted event search terminal, IBM Cloud Activity Tracker hosted event search shell
 
 ---
 
@@ -19,9 +19,6 @@ The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capa
 {: shortdesc} 
 
 This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started-search).
-{: important}
-
-Exporting using the UI uses the [V1 export API](https://cloud.ibm.com/apidocs/activity-tracker#export){: external} and is limited to the functionality provided by that version of the API.
 {: important}
 
 ## Prerequisites

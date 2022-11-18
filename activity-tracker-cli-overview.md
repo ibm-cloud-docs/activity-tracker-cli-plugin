@@ -2,29 +2,24 @@
  
 copyright:
   years:  2021, 2022
-lastupdated: "2021-05-06"
+lastupdated: "2022-08-15"
 
 subcollection: activity-tracker-plugin-cli
 
-keywords: IBM Cloud Activity Tracker CLI, IBM Cloud Activity Tracker command line, IBM Cloud Activity Tracker terminal, IBM Cloud Activity Tracker shell
+keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity Tracker hosted event search command line, IBM Cloud Activity Tracker hosted event search terminal, IBM Cloud Activity Tracker hosted event search shell
 
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Activity Tracker CLIs
+# Activity Tracker hosted event search CLI
 {: #activity-tracker-cli-overview}
 
-The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the {{site.data.keyword.atracker_full}} CLIs to work with the {{site.data.keyword.atracker_full_notm}} offerings. 
+The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the {{site.data.keyword.at_full}} CLI to work with the {{site.data.keyword.at_full_notm}} hosted event search offering. 
 {: shortdesc}
 
-{{site.data.keyword.atracker_full_notm}} has three unique CLIs depending on the offering you are using:
-
-* {{site.data.keyword.at_full}} [hosted event search offering CLI](/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-activity-tracker-cli)
-
-* {{site.data.keyword.at_full}} [Event Routing offering V1 CLI](/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-atracker-v1-cli)
-
-* {{site.data.keyword.at_full}} [Event Routing offering V2 CLI](/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-atracker-v2-cli)
+This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started). See the [command line references for {{site.data.keyword.at_full_notm}} Event Routing](/docs/atracker-cli-plugin?topic=atracker-cli-plugin-atracker-cli-overview) for the CLI for that offering.
+{: important}
 
 ## Installing the CLI
 {: #at_install_cli}
@@ -34,13 +29,10 @@ Make sure you have the [{{site.data.keyword.cloud}} CLI installed.](/docs/cli?to
 After [logging in to the {{site.data.keyword.cloud}}](/docs/cli?topic=cli-ibmcloud_cli#ibmcloud_login), run the following command to install the CLI:
 
 ```text
-ibmcloud plugin install <CLI_PLUGIN>
+ibmcloud plugin install logging
 ```
 {: pre}
 
-Where
 
-CLI_PLUGIN
-:   Is `logging` for the hosted event search CLI and `atracker` for the Event Routing CLI.
 
 
