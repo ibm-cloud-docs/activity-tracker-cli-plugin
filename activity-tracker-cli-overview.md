@@ -1,7 +1,7 @@
 ---
- 
+
 copyright:
-  years:  2021, 2022
+  years:  2021, 2023
 lastupdated: "2022-08-15"
 
 subcollection: activity-tracker-plugin-cli
@@ -15,7 +15,7 @@ keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity
 # Activity Tracker hosted event search CLI
 {: #activity-tracker-cli-overview}
 
-The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the {{site.data.keyword.at_full}} CLI to work with the {{site.data.keyword.at_full_notm}} hosted event search offering. 
+The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the {{site.data.keyword.at_full}} CLI to work with the {{site.data.keyword.at_full_notm}} hosted event search offering.
 {: shortdesc}
 
 This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started). See the [command line references for {{site.data.keyword.at_full_notm}} Event Routing](/docs/atracker-cli-plugin?topic=atracker-cli-plugin-atracker-cli-overview) for the CLI for that offering.
@@ -32,7 +32,3 @@ After [logging in to the {{site.data.keyword.cloud}}](/docs/cli?topic=cli-ibmclo
 ibmcloud plugin install logging
 ```
 {: pre}
-
-
-
-

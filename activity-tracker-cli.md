@@ -1,7 +1,7 @@
 ---
- 
+
 copyright:
-  years:  2021, 2022
+  years:  2021, 2023
 lastupdated: "2022-08-15"
 
 subcollection: activity-tracker-plugin-cli
@@ -16,7 +16,7 @@ keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity
 {: #activity-tracker-cli}
 
 The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the CLI to list and export information for {{site.data.keyword.at_full_notm}} service instances for an account.
-{: shortdesc} 
+{: shortdesc}
 
 This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started-search).
 {: important}
@@ -40,7 +40,7 @@ You're notified on the command line when updates to the {{site.data.keyword.clou
 ## ibmcloud auditing service-instances
 {: #activity-tracker-service-instances}
 
-Use this command to list the service instances for {{site.data.keyword.at_full_notm}}. 
+Use this command to list the service instances for {{site.data.keyword.at_full_notm}}.
 
 ```sh
 ibmcloud logging service-instances [OPTIONS]
@@ -48,7 +48,7 @@ ibmcloud logging service-instances [OPTIONS]
 {: pre}
 
 
-### Command options 
+### Command options
 {: #activity-tracker-service-instances-options}
 
 `--service-name <NAME>` | `--sn <NAME>`
@@ -70,16 +70,16 @@ ibmcloud logging service-instances [OPTIONS]
 :   Supresses verbose output.
 
 `--output <TYPE>`
-:   A comma-separated list of output preferences enclosed in double-quotes (").  If only a single preference is specified, the double-quotes can be omitted. Supported options are `WIDE` and `JSON`.  
+:   A comma-separated list of output preferences enclosed in double-quotes (").  If only a single preference is specified, the double-quotes can be omitted. Supported options are `WIDE` and `JSON`.
 
     If `JSON` is specified, output will be returned in JSON format.  If `JSON` is not specified, output will be returned in a tabular format.
-    
+
     `WIDE` returns additional details in the output.
 
 `--help` | `-h`
 :   List options available for the command.
 
-  
+
 ### Examples
 {: #activity-tracker-service-instances-examples}
 
@@ -138,7 +138,7 @@ ibmcloud logging export --service-key <SERVICE_KEY> [OPTIONS]
 {: pre}
 
 
-### Command options 
+### Command options
 {: #activity-tracker-export-options}
 
 `--service-key <SERVICE_KEY>` | `-s <SERVICE_KEY>`
@@ -148,10 +148,10 @@ ibmcloud logging export --service-key <SERVICE_KEY> [OPTIONS]
 :   Name of the region, for example, `us-south` or `eu-gb`. If not specified, the region logged into or targeted will be used.
 
 `--hosts <HOST_NAMES>` | `--ho <HOST_NAMES>`
-:   A comma-separated list of host names enclosed in double-quotes (").  If only a single host name is specified, the double-quotes can be omitted.  Log entries for the specified host names will be returned. 
+:   A comma-separated list of host names enclosed in double-quotes (").  If only a single host name is specified, the double-quotes can be omitted.  Log entries for the specified host names will be returned.
 
 `--apps <APP_NAMES>` | `-a <APP_NAMES>`
-:   A comma-separated list of app names enclosed in double-quotes (").  If only a single app name is specified, the double-quotes can be omitted.  Log entries for the specified apps will be returned. 
+:   A comma-separated list of app names enclosed in double-quotes (").  If only a single app name is specified, the double-quotes can be omitted.  Log entries for the specified apps will be returned.
 
 `--levels <LOG_LEVELS>` | `-l <LOG_LEVELS>`
 :   A comma-separated list of log level values enclosed in double-quotes (").  If only a single level is specified, the double-quotes can be omitted.  Log entries with the specified level will be returned.  Depending on your environment log levels can include: CRITICAL, DEBUG, EMERGENCY, ERROR, FATAL, INFO, SEVERE, TRACE, WARN, or ALERT.
@@ -160,7 +160,7 @@ ibmcloud logging export --service-key <SERVICE_KEY> [OPTIONS]
 :   The total number of log entries to be exported.
 
 `--from <TIME>`
-:   The starting time to be used for log entries.  No log entries early than this time will be returned.  `<TIME>` is specified as a UNIX timestamp in seconds or milliseconds. 
+:   The starting time to be used for log entries.  No log entries early than this time will be returned.  `<TIME>` is specified as a UNIX timestamp in seconds or milliseconds.
 
 `--to <TIME>`
 :   The ending time to be used for log entries.  No log entries after than this time will be returned.  `<TIME>` is specified as a UNIX timestamp in seconds or milliseconds.
@@ -183,7 +183,7 @@ ibmcloud logging export --service-key <SERVICE_KEY> [OPTIONS]
 `--help` | `-h`
 :   List options available for the command.
 
-  
+
 ### Examples
 {: #activity-tracker-export-examples}
 
@@ -203,7 +203,7 @@ ibmcloud logging export --service-key <SERVICE_KEY> --to <END_TIME> --from <STAR
 ```
 {: pre}
 
-Export `INFO` and `ERROR` level log entries for the provided service key. 
+Export `INFO` and `ERROR` level log entries for the provided service key.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --levels "INFO,ERROR"
@@ -211,27 +211,27 @@ ibmcloud logging export --service-key <SERVICE_KEY> --levels "INFO,ERROR"
 {: pre}
 
 Export log entries for the `metric-server` and `myapp` apps for the provided service key.
- 
+
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --apps "metrics-server,myapp"
 ```
 {: pre}
 
-Export log entries for the `test-hostname` and `cloudantnosqldb` hosts for the provided service key.  
+Export log entries for the `test-hostname` and `cloudantnosqldb` hosts for the provided service key.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --hosts "test-hostname,cloudantnosqldb"
 ```
 {: pre}
 
-Export log entries for the `eu-gb` region for the provided service key. 
+Export log entries for the `eu-gb` region for the provided service key.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --region eu-gb
 ```
 {: pre}
 
-Export log entries containing the string "new line" for the provided service key. 
+Export log entries containing the string "new line" for the provided service key.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --query "new line"
@@ -245,20 +245,16 @@ ibmcloud logging export --service-key <SERVICE_KEY> --query "new line" --prefer 
 ```
 {: pre}
 
-Export log entries in JSON format for the `myapp` app for the provided service key.  
+Export log entries in JSON format for the `myapp` app for the provided service key.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --apps myapp --output json
 ```
 {: pre}
 
-Send an email with a downloadable link to `myemail@mycompany.com` with the subject "Emailing myapp logs".  In this example the link will let `myemail@mycompany.com` see the list of all log entries for the `myapp` app for the provided service key at the time the command was run.  
+Send an email with a downloadable link to `myemail@mycompany.com` with the subject "Emailing myapp logs".  In this example the link will let `myemail@mycompany.com` see the list of all log entries for the `myapp` app for the provided service key at the time the command was run.
 
 ```sh
 ibmcloud logging export --service-key <SERVICE_KEY> --apps myapp --email myemail@mycompany.com --email-subject "Emailing myapp logs"
 ```
 {: pre}
-
-
-
-
