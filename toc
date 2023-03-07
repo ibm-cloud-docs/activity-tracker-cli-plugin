@@ -1,9 +1,0 @@
-{:navgroup: .navgroup}
-{:topicgroup: .topicgroup}
-
-{: .toc subcollection="activity-tracker-cli-plugin" audience="cli" href="/docs/activity-tracker-cli-plugin?topic=activity-tracker-cli-plugin-activity-tracker-cli" path="activity-tracker-cli-plugin"}
-IBM Cloud Activity Tracker CLI
-
-    {: .navgroup id="reference"}
-    activity-tracker-cli.md
-    {: .navgroup-end}
