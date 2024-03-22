@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2021, 2023
-lastupdated: "2022-08-15"
+  years:  2021, 2024
+lastupdated: "2024-03-22"
 
 subcollection: activity-tracker-plugin-cli
 
@@ -18,7 +18,7 @@ keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity
 The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the CLI to list and export information for {{site.data.keyword.at_full_notm}} service instances for an account.
 {: shortdesc}
 
-This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started-search).
+This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started).
 {: important}
 
 ## Prerequisites
