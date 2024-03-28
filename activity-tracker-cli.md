@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2024
-lastupdated: "2024-03-22"
+lastupdated: "2024-03-27"
 
 subcollection: activity-tracker-plugin-cli
 
@@ -17,6 +17,9 @@ keywords: IBM Cloud Activity Tracker hosted event search CLI, IBM Cloud Activity
 
 The {{site.data.keyword.cloud}} command-line interface (CLI) provides extra capabilities for service offerings. This information describes how you can use the CLI to list and export information for {{site.data.keyword.at_full_notm}} service instances for an account.
 {: shortdesc}
+
+As of 28 March 2024 the {{site.data.keyword.la_full_notm}} and {{site.data.keyword.at_full_notm}} services are deprecated and will no longer be supported as of 30 March 2025. Customers will need to migrate to {{site.data.keyword.logs_full_notm}}, which replaces these two services,  prior to 30 March 2025.
+{: deprecated}
 
 This information applies only if you use an {{site.data.keyword.at_full}} [hosted event search offering](/docs/activity-tracker?topic=activity-tracker-getting-started).
 {: important}
