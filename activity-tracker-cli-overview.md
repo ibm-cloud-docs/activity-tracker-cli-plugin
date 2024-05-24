@@ -35,3 +35,4 @@ After [logging in to the {{site.data.keyword.cloud}}](/docs/cli?topic=cli-ibmclo
 ibmcloud plugin install logging
 ```
 {: pre}
+
