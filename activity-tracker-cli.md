@@ -2,7 +2,7 @@
 
 copyright:
   years:  2021, 2024
-lastupdated: "2024-05-24"
+lastupdated: "2024-06-28"
 
 subcollection: activity-tracker-plugin-cli
 
